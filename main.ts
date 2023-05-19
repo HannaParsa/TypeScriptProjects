@@ -13,6 +13,7 @@ let mike = {
     }
 }
 let isTrue: boolean = false;
+let param: any = 'canBeAnyThing';
 
 function sayIt(person: Person) {
     return person.say();

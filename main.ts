@@ -12,6 +12,7 @@ let mike = {
                " and I'm " + this.age + " years old!"
     }
 }
+let isTrue: boolean = false;
 
 function sayIt(person: Person) {
     return person.say();

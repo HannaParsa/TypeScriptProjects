@@ -18,6 +18,7 @@ Math.round(param);
 //no error bevause the param's type is any
 
 let un: unknown = 'unkown';
+//no error and safer than any
 
 function sayIt(person: Person) {
     return person.say();

@@ -17,6 +17,8 @@ let param: any = 'canBeAnyThing';
 Math.round(param);
 //no error bevause the param's type is any
 
+let un: unknown = 'unkown';
+
 function sayIt(person: Person) {
     return person.say();
 }

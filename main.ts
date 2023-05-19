@@ -14,6 +14,8 @@ let mike = {
 }
 let isTrue: boolean = false;
 let param: any = 'canBeAnyThing';
+Math.round(param);
+//no error bevause the param's type is any
 
 function sayIt(person: Person) {
     return person.say();

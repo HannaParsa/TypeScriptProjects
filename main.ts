@@ -58,6 +58,9 @@ enum DirectionsString {
     East ="East",
     West ="West"
 }
+//DirectionsString.North = "North"
+
+
 
 function sayIt(person: Person) {
     return person.say();

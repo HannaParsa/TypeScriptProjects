@@ -23,6 +23,10 @@ let un: unknown = 'unkown';
 const array: string[] = []
 array.push("first param")
 
+//tuple = typed array
+let tuple :[number, boolean, string] 
+tuple = [1, true , 'first param']
+
 function sayIt(person: Person) {
     return person.say();
 }

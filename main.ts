@@ -20,6 +20,7 @@ Math.round(param);
 
 let un: unknown = 'unkown';
 //no error and safer than any
+
 const array: string[] = []
 array.push("first param")
 
@@ -30,6 +31,13 @@ tuple = [1, true , 'first param']
 //1) we can push and add
 //2)readOnly tuple and we can not push and add
 let readOlnyTuple : readonly [number, boolean] = [1, false]
+
+//object type
+let car: {type : string , year : number}={
+    type : "toyota",
+    year : 2000
+}
+
 
 function sayIt(person: Person) {
     return person.say();

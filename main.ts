@@ -44,11 +44,19 @@ manageAge.hanna = 21
 
 //enum is a special class which gives constants
 //begins from zero: Directions.Nprth = 0
+//default is numeric
 enum Directions{
     North,
     South,
     East,
     West
+}
+//enum can be numeric or string
+enum DirectionsString {
+    North ="North",
+    South ="South",
+    East ="East",
+    West ="West"
 }
 
 function sayIt(person: Person) {

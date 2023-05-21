@@ -42,6 +42,13 @@ let car: {type : string , year : number}={
 const manageAge : { [index: string]: number}={}
 manageAge.hanna = 21
 
+//enum is a special class which gives constants
+enum Directions{
+    North,
+    South,
+    East,
+    West
+}
 
 function sayIt(person: Person) {
     return person.say();

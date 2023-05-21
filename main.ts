@@ -26,6 +26,10 @@ array.push("first param")
 //tuple = typed array
 let tuple :[number, boolean, string] 
 tuple = [1, true , 'first param']
+//we have two types of tuples: 
+//1) we can push and add
+//2)readOnly tuple and we can not push and add
+let readOlnyTuple : readonly [number, boolean] = [1, false]
 
 function sayIt(person: Person) {
     return person.say();

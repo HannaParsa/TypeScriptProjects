@@ -38,6 +38,10 @@ let car: {type : string , year : number}={
     year : 2000
 }
 
+//index signature
+const manageAge : { [index: string]: number}={}
+manageAge.hanna = 21
+
 
 function sayIt(person: Person) {
     return person.say();

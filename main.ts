@@ -43,6 +43,7 @@ const manageAge : { [index: string]: number}={}
 manageAge.hanna = 21
 
 //enum is a special class which gives constants
+//begins from zero: Directions.Nprth = 0
 enum Directions{
     North,
     South,

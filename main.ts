@@ -12,6 +12,7 @@ let mike = {
                " and I'm " + this.age + " years old!"
     }
 }
+
 let isTrue: boolean = false;
 let param: any = 'canBeAnyThing';
 Math.round(param);
@@ -19,6 +20,7 @@ Math.round(param);
 
 let un: unknown = 'unkown';
 //no error and safer than any
+const array: string[] = []
 
 function sayIt(person: Person) {
     return person.say();

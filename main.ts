@@ -21,6 +21,7 @@ Math.round(param);
 let un: unknown = 'unkown';
 //no error and safer than any
 const array: string[] = []
+array.push("first param")
 
 function sayIt(person: Person) {
     return person.say();

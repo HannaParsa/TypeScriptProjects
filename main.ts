@@ -50,6 +50,7 @@ enum Directions{
     South,
     East,
     West
+
 }
 //enum can be numeric or string
 //DirectionsString.North = "North"
@@ -62,10 +63,19 @@ enum DirectionsString {
 
 //interface
 interface Rectangle {
-    weight: number;
-    height: number;
+    height: number,
+    width: number
+  }
+//interface can extends another interface
+interface ColoredRectangle extends Rectangle {
+color: string
 }
 
+const coloredRectangle: ColoredRectangle = {
+height: 20,
+width: 10,
+color: "red"
+};
 
 function sayIt(person: Person) {
     return person.say();

@@ -52,14 +52,19 @@ enum Directions{
     West
 }
 //enum can be numeric or string
+//DirectionsString.North = "North"
 enum DirectionsString {
     North ="North",
     South ="South",
     East ="East",
     West ="West"
 }
-//DirectionsString.North = "North"
 
+//interface
+interface Rectangle {
+    weight: number;
+    height: number;
+}
 
 
 function sayIt(person: Person) {

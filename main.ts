@@ -84,7 +84,9 @@ function getTime() :number {
 }
 //function 
 //with input
-
+function multiply(a:number, b:number):number {
+    return a * b;
+}
 
 function sayIt(person: Person) {
     return person.say();

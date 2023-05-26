@@ -88,6 +88,8 @@ function multiply(a:number, b:number):number {
     return a * b;
 }
 
+//casting
+
 function sayIt(person: Person) {
     return person.say();
 }

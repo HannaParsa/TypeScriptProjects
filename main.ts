@@ -78,6 +78,10 @@ color: "red"
 };
 
 //function
+//the return tyoe is number
+function getTime() :number {
+    return new Date().getTime();
+}
 function sayIt(person: Person) {
     return person.say();
 }

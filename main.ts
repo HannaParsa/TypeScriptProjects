@@ -82,6 +82,10 @@ color: "red"
 function getTime() :number {
     return new Date().getTime();
 }
+//function 
+//with input
+
+
 function sayIt(person: Person) {
     return person.say();
 }

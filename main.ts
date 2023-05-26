@@ -77,6 +77,7 @@ width: 10,
 color: "red"
 };
 
+//function
 function sayIt(person: Person) {
     return person.say();
 }

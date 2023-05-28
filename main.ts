@@ -99,6 +99,9 @@ age : number
 }
 const person = new Person()
 person.name = "hanna";
+
+//class with constructor
+
 function sayIt(person: Person) {
     return person.say();
 }

@@ -89,6 +89,7 @@ function multiply(a:number, b:number):number {
 }
 
 //casting
+let x : unknown = "hello";
 
 function sayIt(person: Person) {
     return person.say();

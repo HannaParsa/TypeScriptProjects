@@ -93,7 +93,12 @@ let x : unknown = "hello";
 console.log((<string>x).length);
 
 //classes
-
+class Person{
+name : string
+age : number
+}
+const person = new Person()
+person.name = "hanna";
 function sayIt(person: Person) {
     return person.say();
 }

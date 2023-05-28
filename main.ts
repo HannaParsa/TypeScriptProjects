@@ -101,7 +101,15 @@ const person = new Person()
 person.name = "hanna";
 
 //class with constructor
-
+class Person2{
+    private name : string
+    public constructor(name : string){
+        this.name = name
+    }
+    public getName() : string{
+        return this.name
+    }
+}
 function sayIt(person: Person) {
     return person.say();
 }

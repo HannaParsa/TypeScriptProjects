@@ -91,6 +91,9 @@ function multiply(a:number, b:number):number {
 //casting
 let x : unknown = "hello";
 console.log((<string>x).length);
+
+//classes
+
 function sayIt(person: Person) {
     return person.say();
 }
